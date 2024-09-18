@@ -1,0 +1,27 @@
+// styles/testimonials.module.scss
+
+.testimonialsSection {
+  padding: 50px;
+  background-color: #14213d;
+  color: white;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.testimonialCard {
+  background-color: #457b9d;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonialCard h4 {
+  margin-top: 20px;
+  color: #fca311;
+}

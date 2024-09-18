@@ -1,0 +1,41 @@
+// styles/features.module.scss
+
+.featuresSection {
+  padding: 50px;
+  background-color: #f0f4f8;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #14213d;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.featureItem {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.featureItem:hover {
+  transform: translateY(-10px);
+}
+
+.featureItem h3 {
+  color: #457b9d;
+}
+
+.featureItem p {
+  color: #333;
+}
+
+// styles/features.module.scss
